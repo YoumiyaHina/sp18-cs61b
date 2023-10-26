@@ -1,5 +1,5 @@
 public class NBody {
-    public static final String background="images/starfield.jpg";
+    private static final String background="images/starfield.jpg";
     public static double readRadius(String name){
         In in=new In(name);
         int number=in.readInt();
